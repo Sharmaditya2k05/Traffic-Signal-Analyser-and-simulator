@@ -1,0 +1,29 @@
+Total Vehicles: 58
+
+Average Waiting Time:
+  Fixed:    20.55 s
+  Greedy:   20.07 s
+  Priority: 14.38 s
+
+Max Waiting Time:
+  Fixed:    36.00 s
+  Greedy:   41.00 s
+  Priority: 29.00 s
+
+Time Complexity (Theoretical):
+  Queue Operations: O(1)
+  Greedy Selection: O(N)
+  Priority Queue:   O(log N)
+  Prefix Sum:       O(N)
+
+Overall Complexity:
+  Fixed:    O(N)
+  Greedy:   O(N^2)
+  Priority: O(N log N)
+
+Execution Time (Measured):
+  Fixed:    0.037 ms
+  Greedy:   0.026 ms
+  Priority: 0.032 ms
+
+Best Algorithm: Priority
